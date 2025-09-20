@@ -8,35 +8,42 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Real Estate Theme Colors */
+    --background: 45 20% 94%; /* #EFEEE5 - Warm cream */
+    --foreground: 0 0% 0%; /* #000000 - Black text */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%; /* White cards */
+    --card-foreground: 0 0% 0%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 0 0% 0%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 177 68% 26%; /* #14615C - Main teal */
+    --primary-foreground: 0 0% 100%; /* White on primary */
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 45 20% 94%; /* Same as background */
+    --secondary-foreground: 0 0% 33%; /* #555555 - Secondary text */
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 45 15% 88%;
+    --muted-foreground: 0 0% 33%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 177 68% 26%; /* Primary teal for accents */
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 45 10% 85%;
+    --input: 0 0% 100%;
+    --ring: 177 68% 26%;
 
-    --radius: 0.5rem;
+    /* Custom Real Estate Variables */
+    --hero-gradient: linear-gradient(135deg, hsl(177 68% 26%), hsl(177 68% 20%));
+    --hero-overlay: linear-gradient(rgba(20, 97, 92, 0.7), rgba(20, 97, 92, 0.5));
+    --card-shadow: 0 4px 20px rgba(20, 97, 92, 0.1);
+    --card-hover-shadow: 0 8px 30px rgba(20, 97, 92, 0.15);
+    
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
